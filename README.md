@@ -1,5 +1,7 @@
 # todolist
 
+ToDo-List Using FastAPI and JWT Authentication
+
 ### Add .env file with following variables
   - SECRET_KEY=JWT_TOKEN_SECRET_KEY
   - ALGORITHM=HS256
@@ -13,3 +15,4 @@
   uvicorn app.main:app
 `
   
+Visit /docs for swagger ui documentation :)
